@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.f {
+  background-color: rgba(181, 130, 160, 0.551);
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
