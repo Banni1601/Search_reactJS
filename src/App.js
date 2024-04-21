@@ -7,7 +7,7 @@ class App extends Component {
 
   check = () => {
     const { w } = this.state;
-    if (w === "Subscribe") {
+    if (w == "Subscribe") {
       this.setState((prevState) => ({ w: "Subscribed" }));
     } else {
       this.setState((prevState) => ({ w: "Subscribe" }));
